@@ -1,0 +1,18 @@
+$themes: (
+  light: (
+    backgroundColor: #e9e9e9,
+    backgroundColor-1: rgba(0, 0, 0, 0.1),
+    mainColor: #9c50e5,
+    textColor-1: #5a5a5a,
+    textColor2: #c2c2c2,
+    negative: #00000080
+  ),
+  dark: (
+    backgroundColor: #050505,
+    backgroundColor-1: rgba(255, 255, 255, 0.1),
+    mainColor: #9c50e5,
+    textColor-1: #878787,
+    textColor-2: 494949,
+    negative: #ffffff80
+  )
+);

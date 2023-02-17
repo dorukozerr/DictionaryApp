@@ -1,0 +1,50 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body,
+#app,
+main,
+.appContainer {
+  min-height: 100vh;
+}
+
+.serif {
+  font-family: 'Noto Serif', serif;
+}
+
+.sans-serif {
+  font-family: 'Noto Sans', sans-serif;
+}
+
+.monospace {
+  font-family: 'Roboto Mono', monospace;
+}
+
+.appContainer {
+  width: 100%;
+  height: 100%;
+  padding: 150px;
+
+  @include themify($themes) {
+    background-color: themed('backgroundColor');
+    color: themed('textColor-2');
+  }
+
+  .app {
+    margin: 0 auto;
+    width: 600px;
+    padding: 30px;
+    border-radius: 15px;
+
+    @include themify($themes) {
+      color: themed('textColor-0');
+      background-color: themed('backgroundColor-1');
+    }
+  }
+}
