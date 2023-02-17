@@ -13,10 +13,7 @@ export const DictionaryProvider = ({ children }) => {
             `https://api.dictionaryapi.dev/api/v2/entries/en/${searchInput}`
           )
             .then(response => response.json())
-            .then(data => {
-              setData(data[0])
-              console.log('log from context =>', data[0])
-            })
+            .then(data => setData(data[0]))
         : setData(null)
     }, 1000)
 

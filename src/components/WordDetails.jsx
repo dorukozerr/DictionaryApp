@@ -4,8 +4,6 @@ import { DictionaryContext } from '../context/DictionaryContext'
 const WordDetails = () => {
   const { data } = useContext(DictionaryContext)
 
-  console.log(data)
-
   return (
     <div className='wordDetailsContainer'>
       {data && (
