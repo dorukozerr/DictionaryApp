@@ -1,7 +1,5 @@
 ## Frontend Challenge
 
----
-
 A dictionary app that provides quick access to word definitions, synonyms, and antonyms, with a user-friendly interface.
 
 ---
